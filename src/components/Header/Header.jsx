@@ -1,4 +1,4 @@
-import React from 'react';
+import  'react';
 import './Header.css'
 import logo from '../../images/Logo.svg'
 const Header = () => {
@@ -6,9 +6,9 @@ const Header = () => {
         <nav className='header'>
             <img src={logo} alt="" />
             <div className='others'>
-                <a href="/shop">shop</a>
-                <a href="/order">order</a>
-                <a href="/inventory">inventory</a>
+                <a href="/shop">Shop</a>
+                <a href="/order">Order</a>
+                <a href="/inventory">Inventory</a>
                 <a href="/log in">Log in</a>
             </div>
         </nav>
